@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statistical_tests"
+version = "0.1.0"
+authors = [{name = "ABHISHEK MISHRA", email = "demo@gmail.com"}]
+description = "This Package is an implementation of multiple Statistical Tests e.g. ANOVA, CHI SQUARE, Z-TEST, T-TEST"
+license = {text = "MIT"}
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "statsmodels"
+]
