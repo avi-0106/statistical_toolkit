@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "statistical_tests"
-version = "0.1.1"
+version = "0.2.1"
 authors = [{name = "ABHISHEK MISHRA", email = "demo@gmail.com"}]
 description = "This Package is an implementation of multiple Statistical Tests e.g. ANOVA, CHI SQUARE, Z-TEST, T-TEST"
 license = {text = "MIT"}
