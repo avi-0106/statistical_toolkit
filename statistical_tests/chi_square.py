@@ -6,7 +6,7 @@ import seaborn as sns
 from typing import Union
 
 class ChiSquareTest:
-    '''Chi-square test of independence with comprehensive diagnostics.'''
+    """Chi-square test of independence with comprehensive diagnostics."""
     
     def __init__(self, observed: Union[np.ndarray, pd.DataFrame, list[list]], handle_missing: str = "remove"):   
         # Convert and validate input
