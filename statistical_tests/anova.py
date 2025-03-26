@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 
 class ANOVA:
-    '''ANOVA implementation with boxplots, violin + swarmplot overlay, and bar chart visualization.'''
+    """ANOVA implementation with boxplots, violin + swarmplot overlay, and bar chart visualization."""
 
     def __init__(self, *groups, alpha=0.05):
         self.groups = groups
