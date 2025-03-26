@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import scipy.stats as stats
 
 class ZTest:
-    #Z-Test with visualization
+    """Z-Test with visualization"""
 
     def __init__(self, data1, data2=None, population_mean=None, sigma1=None, sigma2=None, tail="two", alpha=0.05):
         self.data1 = data1
