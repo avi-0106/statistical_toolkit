@@ -15,8 +15,8 @@ setup(
         "scipy",
         "matplotlib",
         "seaborn",
-        "statsmodels"
+        "statsmodels",
     ],
     license="MIT",
-    platforms="OS Independent"
+    platforms="OS Independent",
 )
