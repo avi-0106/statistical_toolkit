@@ -34,12 +34,9 @@ class ChiSquareTest:
 
     def _validate_table(self):
         #Validate contingency table requirements.
-        if self.observed.size == 0:
-            raise ValueError("Contingency table is empty after missing value handling")
-        if np.any(self.observed < 0):
-            raise ValueError("Contingency table contains negative values")
-        if self.observed.ndim != 2:
-            raise ValueError("Contingency table must be 2-dimensional")
+        assert self.observed.size > 0, "Contingency table is empty after missing value handling"
+        assert np.any(self.observed) >= 0, "Contingency table contains negative values"
+        assert self.observed.ndim == 2, "Contingency table must be 2-dimensional"
 
     def run_test(self) -> dict:
         #Execute chi-square test with effect size measures.

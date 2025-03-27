@@ -4,8 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "statistical_tests"
-version = "0.2.1"
-authors = [{name = "ABHISHEK MISHRA", email = "demo@gmail.com"}]
+version = "0.1"
+authors = [{name = "ABHISHEK MISHRA", email = "demo@gmail.com"},
+{name = "ANIRUDH PARAMESWARAN", email = "anirudhparameswaran@gmail.com"},
+{name = "SIDDHANT MISHRA", email = "mishrasiddhant911@gmail.com"}]
 description = "This Package is an implementation of multiple Statistical Tests e.g. ANOVA, CHI SQUARE, Z-TEST, T-TEST"
 license = {text = "MIT"}
 dependencies = [
@@ -17,3 +19,8 @@ dependencies = [
     "seaborn",
     "statsmodels"
 ]
+
+[project.urls]
+Documentation = "https://github.com/avi-0106/statistical_toolkit/blob/master/README.md"
+Issues = "https://github.com/avi-0106/statistical_toolkit/issues"
+Source = "https://github.com/avi-0106/statistical_toolkit"
