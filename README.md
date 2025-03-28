@@ -1,3 +1,10 @@
+[![GitHub tag](https://img.shields.io/github/tag/avi-0106/statistical_toolkit?include_prereleases=&sort=semver&color=blue)](https://github.com/avi-0106/statistical_toolkit/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+## License
+
+Released under [MIT](/LICENSE) by [@avi-0106](https://github.com/avi-0106).
+
 # Documentation
 The Statistical Toolkit package provides functions that simplify hypothesis testing and helps in interpretation by giving out-of-the-box solutions for creating great visualizations.
 
@@ -167,6 +174,10 @@ Generates a visual representation of the standard normal distribution, the rejec
 If p_value < alpha, reject the null hypothesis (significant difference exists).
 
 If p_value >= alpha, fail to reject the null hypothesis (no significant difference).
+
+# Contributing
+
+Want to contribute? Please foork this repository and submit a pull request!
 
 # License
 
