@@ -1,7 +1,7 @@
 [project]
 name = "statistical_tests"
 version = "0.3.0"
-authors = [{name = "ABHISHEK MISHRA", email = "demo@gmail.com"},
+authors = [{name = "ABHISHEK MISHRA", email = "abhishekmishra0106@gmail.com"},
 {name = "ANIRUDH PARAMESWARAN", email = "anirudhparameswaran@gmail.com"},
 {name = "SIDDHANT MISHRA", email = "mishrasiddhant911@gmail.com"}]
 description = "This Package is an implementation of multiple Statistical Tests e.g. ANOVA, CHI SQUARE, Z-TEST, T-TEST"
