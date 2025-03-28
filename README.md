@@ -16,7 +16,7 @@ The Statistical Toolkit package provides functions that simplify hypothesis test
 
 #### 2. Install the Package in editable mode
 
-```python -m pip install -e .```
+```pip install statistical_tests==0.3.0```
 
 #### 3. Verify installation
 
